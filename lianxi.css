@@ -1,0 +1,68 @@
+.clearfix::after{   
+    content: '';
+    display: block;
+    clear: both;
+}
+
+body{
+    background-color: black;
+    color: white;
+    margin: 0;
+}
+
+a{
+    text-decoration: none;
+}
+
+.topNavBar{
+    padding: 25px 4px 25px 4px;
+    
+}
+
+.topNavBar nav{
+    float: right;
+}
+
+.topNavBar a{
+    float: left;
+    font-size: 29px;
+    margin-left: 20px;
+    padding-top: 4px;
+    padding-bottom: 4px;
+}
+
+.topNavBar nav ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.topNavBar nav ul li{
+    float: left;
+    margin-left: 15px;
+    margin-right: 15px;
+    font-size: 13px;
+}
+
+.topNavBar nav ul li>a{
+    color: #C9CBCE;
+    font-size: 13px;
+    padding-top: 13px;
+    padding-bottom: 13px;
+    font-weight: bold;
+    border-top: 4px solid transparent;
+    border-bottom:  3px solid transparent;
+    display: block;
+}
+
+.topNavBar nav ul li>a:hover{
+    border-bottom: 3px solid #E8676B;
+}
+
+.rs{
+    color: #E8676B;
+}
+
+.topNavBar .logo .card{
+    color: #9A9DA2; 
+}
