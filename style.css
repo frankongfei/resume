@@ -1,6 +1,5 @@
 body{
-    background-color: black;
-    color: white;
+    background-color: #EFEFEF;
     margin: 0;
 }
 
@@ -89,4 +88,26 @@ a{
 .banner .mask{
     height: 515px;
     background-color: rgba( 0, 0, 0, 0.4);
+}
+.userCard{
+    border: 1px solid red;
+    background-color: #FFFFFF;
+    max-width: 940px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.userCard .welcome{
+    background-color: #E8676B;
+    color: white;
+    display: inline-block;
+    padding: 5px 15px;
+    line-height: 22px;
+}
+
+.userCard .welcome.triangle{
+    border: 10px solid transparent;
+    width: 0px;
+    border-left-color: #E8676B;
+    border-top-width:0px;
 }
