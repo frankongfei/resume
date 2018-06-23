@@ -17,8 +17,16 @@ a{
 }
 
 .topNavBar{
-    padding: 18px 15px 18px 15px;
+    padding: 18px 0 18px 0;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
 }
+
+.topNarBar-inner{
+    padding: 0 16px;
+}   
 
 .topNavBar .logo{
     font-size: 30px;
@@ -36,11 +44,11 @@ a{
     color: #9A9DA2;
 }
 
-.topNavBar>a{
+.topNavBar a{
     float: left;
 }
 
-.topNavBar>nav{
+.topNavBar nav{
     float: right
 }
 
@@ -71,5 +79,14 @@ a{
     border-bottom: 4px solid #E8676B
 }
 
+.banner{
+    height: 515px;
+    background-image: url(./img/wallhaven-389493.jpg);
+    background-position: center center;
+    background-size: cover;
+}
 
-
+.banner .mask{
+    height: 515px;
+    background-color: rgba( 0, 0, 0, 0.4);
+}
