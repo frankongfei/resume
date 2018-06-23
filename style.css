@@ -15,6 +15,12 @@ a{
     text-decoration: none;
 }
 
+hr{
+    height: 0;
+    border: none;
+    border-top:1px solid #DEDEDE;
+}
+
 .topNavBar{
     padding: 18px 0 18px 0;
     position: fixed;
@@ -103,11 +109,66 @@ a{
     display: inline-block;
     padding: 5px 15px;
     line-height: 22px;
+    position: relative;
+    font-weight: bold;
+    margin-bottom: 38px;
 }
 
-.userCard .welcome.triangle{
+.userCard .welcome .triangle{
+    display: block;
     border: 10px solid transparent;
     width: 0px;
     border-left-color: #E8676B;
     border-top-width:0px;
+    position: absolute;
+    left: 5px;
+    top: 100%;
+}
+
+.userCard .picture{
+    float: left;
+}
+
+.userCard .text{
+    float: left;
+    margin-left: 65px;
+    width: 472px;
+}
+
+.userCard .text hr{
+    margin: 24px 0;
+}
+
+.userCard .pictureAndtext{
+    padding: 73px 0 0 65px;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+h1{
+    margin-bottom: 7px;
+}
+
+
+.userCard dl dt,
+.userCard dl dd{
+    float: left;
+    padding: 6px 0;
+}
+
+.userCard dl dt{
+    width: 25%;
+    font-weight: bold;
+}
+
+.userCard dl dd{
+    width: 75%;
+    color: #9DA0A7;
+}
+
+.userCard .media{
+    background-color: #E8676B;
 }
