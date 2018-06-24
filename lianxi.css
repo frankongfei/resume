@@ -5,8 +5,8 @@
 }
 
 body{
-    background-color: black;
-    color: white;
+    background-color: #EFEFEF;
+    color: black;
     margin: 0;
 }
 
@@ -16,7 +16,10 @@ a{
 
 .topNavBar{
     padding: 25px 4px 25px 4px;
-    
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
 }
 
 .topNavBar nav{
@@ -63,6 +66,68 @@ a{
     color: #E8676B;
 }
 
+.topNavBar .topNarBar-inner{
+    padding: 0 16px;
+}
+
 .topNavBar .logo .card{
     color: #9A9DA2; 
+}
+
+.banner{
+    height: 515px;
+    background-image: url(./img/wallhaven-389493.jpg);
+    background-position: center center;
+    background-size: cover;
+}
+
+.banner .mask{
+    height: 515px;
+    background-color: rgba(0, 0, 0, 40%);
+}
+
+.userCard{
+    border: 1px solid red;
+    background: white;
+    
+}
+
+.userCard img{
+    float: left;
+}
+
+.userCard .text{
+    float: left;
+    margin-left: 65px;
+    width: 472px;
+}
+
+.userCard{
+    background-color: #FFFFFF;
+    max-width: 940px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.userCard dl dt,
+.userCard dl dd{
+    float: left;
+    padding: 6px 0;
+}
+.userCard dl dt{
+    width: 25%;
+    font-weight: bold;
+}
+
+.userCard dl dd{
+    width: 75%;
+    color: #9DA0A7;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+h1{
+    margin-bottom: 7px;
 }
