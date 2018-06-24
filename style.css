@@ -70,7 +70,7 @@ hr{
 }
 
 .topNavBar nav ul li>a{
-    font-size: 12px;
+    font-size: 13px;
     color: #C3C5C7;
     font-weight: bold;
     border-top: 4px solid transparent;
@@ -190,4 +190,13 @@ h1{
 
 .userCard .media > a:hover{
     background: #D05C60;
+}
+
+body > main{
+    margin-top: -350px;
+}
+
+body > main .downloadResume{
+    font-size: 14px;
+    font-weight: bold;
 }
