@@ -233,22 +233,107 @@ body > main .self-introduction{
     font-size: 17px;
 }
 
-section.skills{
+section.skills,
+section.portfolio{
     max-width: 940px;
     margin-left: auto;
     margin-right: auto;
 }
 
-section.skills h2{
+section.skills h2,
+section.portfolio h2{
     color: #3D4451;
     line-height: 1.2;
     font-weight: 600;
     font-size: 34px;
     text-align: center;
-    margin-top: 77px;
+    margin: 77px 0 35px 0;
+    
+}
+
+section.skills h3{
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 1.1;
 }
 
 section.skills ol.skills-list{
     border: 1px solid #D8D8D8;
     background: #FFFFFF;
+    padding: 55px 25px 8px 65px;
+}
+
+section.skills ol li{
+    float: left;
+    width: 50%;
+    box-sizing: border-box;
+    padding-right: 40px;
+}
+section.skills .progressBar{
+    height: 5px;
+    background: #FAE1E1;
+    border-radius: 10px;
+    margin: 8px 0 44px 0;
+}
+
+section.skills .progressBar .progress1{
+    background: #E8676B;
+    width: 62%;
+    border-radius: 10px;
+    height: 100%;
+}
+section.skills .progressBar .progress2{
+    background: #E8676B;
+    width: 30%;
+    border-radius: 10px;
+    height: 100%;
+}section.skills .progressBar .progress3{
+    background: #E8676B;
+    width: 20%;
+    border-radius: 10px;
+    height: 100%;
+}section.skills .progressBar .progress4{
+    background: #E8676B;
+    width: 90%;
+    border-radius: 10px;
+    height: 100%;
+}section.skills .progressBar .progress5{
+    background: #E8676B;
+    width: 50%;
+    border-radius: 10px;
+    height: 100%;
+}section.skills .progressBar .progress6{
+    background: #E8676B;
+    width: 65%;
+    border-radius: 10px;
+    height: 100%;
+}
+
+section.portfolio nav{
+    text-align: center;
+}
+
+section.portfolio nav ol{
+    margin: 0 auto;
+    display: inline-block;
+    vertical-align: top;
+    border: 1px solid red;
+}
+
+section.portfolio nav ol li{
+    float: left;
+    margin-right: 40px;
+}
+
+section.portfolio nav ol li:nth-child(3){
+    margin-right: 0px;
+}
+
+
+section.portfolio nav{
+    display: inline-block;
+}
+
+section.portfolio nav .Bar{
+    border: 1px solid red; 
 }
