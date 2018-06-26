@@ -153,6 +153,10 @@ h1{
     margin-bottom: 7px;
 }
 
+ol,ul{
+    list-style: none;
+}
+
 .userCard dl dt,
 .userCard dl dd{
     float: left;
@@ -229,15 +233,22 @@ body > main .self-introduction{
     font-size: 17px;
 }
 
-section .skills{
+section.skills{
     max-width: 940px;
     margin-left: auto;
     margin-right: auto;
 }
 
-section .skills h2{
+section.skills h2{
     color: #3D4451;
-    font-weight: bold;
-    font-size: 40.8px;
-    text-align: center center;
+    line-height: 1.2;
+    font-weight: 600;
+    font-size: 34px;
+    text-align: center;
+    margin-top: 77px;
+}
+
+section.skills ol.skills-list{
+    border: 1px solid #D8D8D8;
+    background: #FFFFFF;
 }
