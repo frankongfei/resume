@@ -100,6 +100,7 @@ hr{
     max-width: 940px;
     margin-left: auto;
     margin-right: auto;
+    box-shadow: 0px 1px 3px 2px rgba(89,76,89,0.4);
 }
 
 .userCard .welcome{
@@ -132,6 +133,7 @@ hr{
     float: left;
     margin-left: 65px;
     width: 472px;
+    color: #3D4451;
 }
 
 .userCard .text hr{
@@ -160,6 +162,7 @@ h1{
 .userCard dl dt{
     width: 25%;
     font-weight: bold;
+    color: #333333;
 }
 
 .userCard dl dd{
@@ -197,6 +200,44 @@ body > main{
 }
 
 body > main .downloadResume{
-    font-size: 14px;
+    font-size: 15px;
     font-weight: bold;
+    padding: 21px 55px;
+    line-height: 16px;
+    border: 1px solid #CBCDCF;
+    margin: 30px;
+    display: inline-block;
+    color: #3D4451;
+    border-radius: 3px;
+}
+
+body > main .downloadResume-wrapper{
+    text-align: center;
+}
+
+body > main .downloadResume:hover{
+    box-shadow: 0px 4px 13px 2px rgba(89,76,89,0.4); 
+    transition: box-shadow 0.3s;   
+}
+
+body > main .self-introduction{
+    max-width: 940px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    line-height: 1.8;
+    font-size: 17px;
+}
+
+section .skills{
+    max-width: 940px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+section .skills h2{
+    color: #3D4451;
+    font-weight: bold;
+    font-size: 40.8px;
+    text-align: center center;
 }
