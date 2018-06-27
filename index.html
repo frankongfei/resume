@@ -178,14 +178,30 @@
 			<h2>转职职业</h2>
 			<nav>
 				<ol class="clearfix">
-					<li>剑魂</li>
-					<li>剑圣</li>
-					<li>剑神</li>
+					<li id="portfoliojianhun">剑魂</li>
+					<li id="portfoliojiansheng">剑圣</li>
+					<li id="portfoliojianshen">剑神</li>
 				</ol>
-				<div class="Bar">
-					
+				<div id="portfolioBar" class="Bar state-1">
+					<div class="Bar-inner">
+
+					</div>
 				</div>
 			</nav>
+			<script>
+				portfoliojianhun.onclick= function(){
+					portfolioBar.className = 'Bar state-1'
+				}
+				portfoliojiansheng.onclick= function(){
+					portfolioBar.className = 'Bar state-2'
+				}
+				portfoliojianshen.onclick= function(){
+					portfolioBar.className = 'Bar state-3'
+				}
+			</script>
+
+
+
 			<div class="jobs">
 				<div class="big"></div>
 
