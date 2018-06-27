@@ -312,6 +312,7 @@ section.skills .progressBar .progress2{
 
 section.portfolio{
     text-align: center;
+    margin-bottom: 100px;
 }
 
 section.portfolio nav{
@@ -346,7 +347,7 @@ section.portfolio nav .Bar{
     background: #FAE1E1;
     height: 5px;
     margin-top: 15px;
-    margin-bottom: 100px;
+    margin-bottom: 30px;
     border-radius: 10px;
 }
 
@@ -370,4 +371,46 @@ section.portfolio nav .Bar.state-2 .Bar-inner{
 section.portfolio nav .Bar.state-3 .Bar-inner{
     margin-left: 66.7%;
     width: 33.3%;
+}
+
+
+section.portfolio .works{
+    position: relative;
+    height: 640px;
+}
+
+
+
+section.portfolio .works .big,
+section.portfolio .works .small1,
+section.portfolio .works .small2{
+    position: absolute;
+}
+
+section.portfolio .works .big,{
+    height: 640px;
+    width: 640px;
+}
+
+section.portfolio .works .big img{
+    height: 620px;
+    width: 620px;
+    top: 0;
+    left: 0;
+}
+
+section.portfolio .works .small1 img{
+    height: 300px;
+    width: 300px;
+    top: 0;
+    left: 640px;
+    position: absolute;
+}
+
+section.portfolio .works .small2 img{
+    height: 300px;
+    width: 300px;
+    top: 320px;
+    left: 640px;
+    position: absolute;
 }
